@@ -1,4 +1,28 @@
 /*Overall vibe I am going for is camper theamed with lots of fun pastel blue, purple and yellow. Very Summer*/
-#cafe{
+body{
     text-align: center;
+    background-color: #d8b7f8
 }
+*{
+    font-family: sans-sefir
+}
+.established{
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+  }
+
+.menu{
+    background-color:#00ffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+    padding: 20%;
+    max-width: 500px;
+  }
