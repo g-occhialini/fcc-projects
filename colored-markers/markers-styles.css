@@ -1,0 +1,69 @@
+/*I'm trying to go for a color wheel of markers*/
+h1{
+    text-align: center;
+/*Centers the text*/
+}
+.container{
+    background-color: #ffffff;
+    padding: 10px 0
+/*padding top bottom left right OR top/bottom left/right*/
+}
+.marker{
+/*This is the marker body*/
+    width:200px;
+    height: 25px;
+    margin: 10px auto;
+}
+.cap{
+/*This is the marker cap*/
+    width: 60px;
+    height: 25px;
+}
+.sleeve{
+/*This is the white part of the marker. Check transparent and full white*/
+    width: 110px;
+    height: 25px;
+    background-color: #e1e1e180;
+/*This is the black lines on the marker*/
+    border-left: 10px double #000000bf;
+}
+.cap, .sleeve{
+    display: inline-block;
+}
+/*My theory is that by making each color an id that I can manipulate them easier*/
+#red{/*make these linear gradients*/
+    background:red;
+}
+#green{/*make these linear gradients*/
+    background:green;
+}
+#blue{/*make these linear gradients*/
+    background:blue;
+}
+#yellow{/*make these linear gradients*/
+    background:yellow;
+}
+#cyan{/*make these linear gradients*/
+    background:cyan;
+}
+#magenta{/*make these linear gradients*/
+    background:magenta;
+}
+#orange{/*make these linear gradients*/
+    background:orange;
+}
+#spring-green{/*make these linear gradients*/
+    background:springgreen;
+}
+#violet{/*make these linear gradients*/
+    background:violet;
+}
+#chartreuse{/*make these linear gradients*/
+    background:chartreuse;
+}
+#azure{/*make these linear gradients*/
+    background:#007fff;
+}
+#rose{/*make these linear gradients*/
+    background:#ff007f;
+}
