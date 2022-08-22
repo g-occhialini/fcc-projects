@@ -1,10 +1,10 @@
 /*Overall vibe I am going for is camper theamed with lots of fun pastel blue, purple and yellow. Very Summer*/
 body{
     text-align: center;
-    background-color: #d8b7f8
+    background-image: url(../fcc-projects/cafe-images/beans.jpg);
 }
 *{
-    font-family: sans-sefir
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .established{
     font-style: italic;
@@ -19,12 +19,14 @@ h2 {
   }
 
 .menu{
-    background-color:#00ffff;
+    background-color:#a38865;
+    color: antiquewhite;
     margin-left: auto;
     margin-right: auto;
-    width: 80%
+    width: 65%;
     max-width: 500px;
     padding: 20px;
+    height: 60%%;
   }
 .price{
     text-align: right;
@@ -36,12 +38,21 @@ h2 {
     display: inline-block;
     width: 25%;
 }
-a{
-    display: inline-block;
-}
+
 hr{
     height: 2px;
-    background-color: black;
-    border-color: #00ffff;
+    background-color: none;
+    border-color: antiquewhite;
     border-style: dotted;
+}
+/* FOOTER */
+a{
+    display: inline-block;
+    color: antiquewhite;
+}
+a:visited{
+    color:antiquewhite
+}
+a:hover{
+    color: black;
 }
