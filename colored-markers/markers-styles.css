@@ -1,6 +1,10 @@
 /*I'm trying to go for a color wheel of markers*/
 h1{
     text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 /*Centers the text*/
 }
 .container{
@@ -20,10 +24,10 @@ h1{
     height: 25px;
 }
 .sleeve{
-/*This is the white part of the marker. Check transparent and full white*/
+/*This is the whiteish part of the marker. Check transparent and full white*/
     width: 110px;
     height: 25px;
-    background-color: #e1e1e180;
+    background-color: #f0eeeea9;
 /*This is the black lines on the marker*/
     border-left: 10px double #000000bf;
 }
@@ -31,39 +35,72 @@ h1{
     display: inline-block;
 }
 /*My theory is that by making each color an id that I can manipulate them easier*/
+/*box-shadow: offsetX offsetY blurRadius color;*/
 #red{/*make these linear gradients*/
-    background:red;
+    background: linear-gradient(#7b4a0e, #f53d71, #a11b1b);
+    box-shadow: 5px 5px 5px #530e0ecc;
 }
 #green{/*make these linear gradients*/
-    background:green;
+    background: linear-gradient(#55680d, #71f53d, #116e32);
+    box-shadow: 5px 5px 5px #3B7E20CC;
 }
 #blue{/*make these linear gradients*/
-    background:blue;
+    background: linear-gradient(#0a4248, #3d71f5, #2f2fa7);
+    box-shadow: 5px 5px 5px #1e1e6b
 }
 #yellow{/*make these linear gradients*/
-    background:yellow;
+    background: linear-gradient(#8a7f1d, #ffeb3b, #6c6541);
+    box-shadow: 5px 5px 5px #524b2c;
 }
 #cyan{/*make these linear gradients*/
-    background:cyan;
+    background:linear-gradient(#029999,#00ffff,#018a8a);
+    box-shadow: 5px 5px 5px #004b4b;
 }
 #magenta{/*make these linear gradients*/
-    background:magenta;
+    background:linear-gradient(#a103a1, #ff00ff, #7a017a);
+    box-shadow: 5px 5px 6px #4f014f;
 }
 #orange{/*make these linear gradients*/
-    background:orange;
+    background:linear-gradient(#a86e02,#ffa500,#915f01);
+    box-shadow: 5px 5px 5px #7d5201;
 }
 #spring-green{/*make these linear gradients*/
-    background:springgreen;
+    background: linear-gradient(#019149, #00ff7f, #015c2e);
+    box-shadow: 5px 5px 5px #014221;
 }
 #violet{/*make these linear gradients*/
-    background:violet;
+    background: linear-gradient(#975697,#ee82ee,#8a4c8a);
+    box-shadow: 5px 5px 5px #6d3d6d;
 }
 #chartreuse{/*make these linear gradients*/
-    background:chartreuse;
+    background: linear-gradient(#5ab302,#7fff00, #3a7301);
+    box-shadow: 5px 5px 5px #2e5c01
 }
 #azure{/*make these linear gradients*/
-    background:#007fff;
+    background: linear-gradient(#025ab3,#007fff,#013a73);
+    box-shadow: 5px 5px 5px #012952;
 }
 #rose{/*make these linear gradients*/
-    background:#ff007f;
+    background: linear-gradient(#a30353,#ff007f,#800140);
+    box-shadow: 5px 5px 5px #800140;
+}
+.spacer{
+    padding: 20px;
+}
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black
+}
+a{
+    font-size:large;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
 }
