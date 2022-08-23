@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <link rel='stylesheet' href='survey-styles.css'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+    <title>Cat survey form</title>
+  </head>
+  <body>
+    <header>
+    <h1 id='title'>What Cat is Best?</h1>
+    <p id='description'><em>Hey all you cool cats and kittens</em></p>
+    </header>
+    <main>
+      <form id='survey-form'>
+    <fieldset>
+      <label id='name-label'>Tell us your First Name</label>
+      <input id='name'type='text'placeholder='Crazy Cat Lady' required>
+      <label id='email-label'>Tell us your email</label>
+      <input id='email' type='email' placeholder='Catlover@prettykitty.com' required>
+      <label id='number-label'>How old are you?</label>
+      <input id='number'type='number'min='13' max='120' placeholder='30'>
+    </fieldset>
+    <fieldset>
+      <label>How Much Do You Love Cats
+        <select id='dropdown'>
+          <option value=''>Select One</option>
+          <option value='1'>A lot</option>
+          <option value='2'>A ton</option>
+          <option value='3'>I am Obsessed</option>
+          </select>
+        </label>
+          <label>How many Cats Do You Own?
+            <input type='radio' value='1'name='cat-number'>1 or 2
+            <input type='radio' value='2' name='cat-number'>3 or 5
+            <input type='radio' value='3' name='cat-number'>6 or more
+            <input type='radio' value='4' name='cat-number'>Perfer not to say
+            </label>
+    </fieldset>
+    <fieldset>
+      <label>What is your favorite type of cat?
+        <input type='checkbox' value='1' name='favorite'>Sphynx
+        <input type='checkbox' value='2' name='favorite'>Maine Coon
+        <input type='checkbox' value='3' name='favorite'>Bangel
+        <input type='checkbox' value='4' name='favorite'>Exotic Shorthair
+        <input type='checkbox' value='5' name='favorite'>Ragdoll
+        <input type='checkbox' value='6' name='favorite'>Brittish Shorthair
+        <input type='checkbox' value='7' name='favorite'>Scottish Fold
+        <input type='checkbox' value='8' name='favorite'>Sphynx
+        <input type='checkbox' value='9' name='favorite'>American Shorthair
+        <input type='checkbox' value='10' name='favorite'>Rescue Cat
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>What is your favorite thing about cats?:
+          <textarea name="bio" rows="3" cols="30" placeholder="Cats are purrfect and I love everything about them"></textarea>
+        </label>
+    </fieldset>
+    <input type='submit'id='submit'>
+    </form>
+    </main>
+  </body>
+  </html>
