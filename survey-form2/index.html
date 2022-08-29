@@ -14,12 +14,13 @@
         </header>
         <main>
             <fieldset>
-                <label id='name-label'>
-                  <input id="name" type="text" placeholder='Enter Your Name' required>Name</input>
+                <label id='name-label'>Name
+<!--The words that are showing need to go before the input for them to be put ontop-->
+                  <input id="name" type="text" placeholder='Enter Your Name' required></input>
                 </label>
-                <label id='email-label'><input id="email" type="email" placeholder="Enter Your Email" required>Email</input>
+                <label id='email-label'>Email<input id="email" type="email" placeholder="Enter Your Email" required></input>
                     </label>
-                <label id="number-label"><input id="number" type="number" min="0" max="120" placeholder="Age">Age (optional)</input>
+                <label id="number-label">Age (optional)<input id="number" type="number" min="0" max="120" placeholder="Age"></input>
                     </label>
             </fieldset>
             <fieldset><!--I had to look this up for formatting-->
@@ -33,27 +34,30 @@
                     <option value="5">Other</option>
                 </select>
                 <label>Would You Reccomend freeCodeCamp to a friend?</label>
-                <input type='radio' value='1' name="rating">Definitely
-                <input type="radio" value="2" name="rating">Maybe
-                <input type="radio" value="3" name="rating">Not Sure
+                <div id='radio'><input type='radio' value='1' name="rating" class="inline">Definitely</div>
+                <div id='radio'><input type="radio" value="2" name="rating" class="inline">Maybe</div>
+                <div id='radio'><input type="radio" value="3" name="rating" class="inline">Not Sure</div>
+            </fieldset>
+            <fieldset>
                 <label>What Would You Like to See Improved? (check all that apply)</label>
-                <input type="checkbox" value="1">Front-end Projects
-                <input type="checkbox" value="2">Back-end Projects
-                <input type="checkbox" value="3">Data Visualization
-                <input type="checkbox" value="4">Challenges
-                <input type="checkbox" value="5">Open Source Community
-                <input type="checkbox" value="6">Gitter help rooms
-                <input type="checkbox" value="7">Videos
-                <input type="checkbox" value="8">City Meetups
-                <input type="checkbox" value="9">Wiki
-                <input type="checkbox" value="10">Forum
-                <input type="checkbox" value="11">Additional Courses
+<!--To keep the box on the line with the words I had to wrap them in a div element and make the div have an id IT WILL NOT WORK WITH CLASS-->
+                <div id='checkbox'><input type="checkbox" value="1" class="inline">Front-end Projects</div>
+                <div id='checkbox'><input type="checkbox" value="2" class="inline">Back-end Projects</div>
+                <div id='checkbox'><input type="checkbox" value="3" class="inline">Data Visualization</div>
+                <div id='checkbox'><input type="checkbox" value="4" class="inline">Challenges</div>
+                <div id='checkbox'><input type="checkbox" value="5" class="inline">Open Source Community</div>
+                <div id='checkbox'><input type="checkbox" value="6" class="inline">Gitter help rooms</div>
+                <div id='checkbox'><input type="checkbox" value="7" class="inline">Videos</div>
+                <div id='checkbox'><input type="checkbox" value="8" class="inline">City Meetups</div>
+                <div id='checkbox'><input type="checkbox" value="9" class="inline">Wiki</div>
+                <div id='checkbox'><input type="checkbox" value="10" class="inline">Forum</div>
+                <div id='checkbox'><input type="checkbox" value="11" class="inline">Additional Courses</div>
             </fieldset>
             <fieldset>
                 <label>Any comments or suggestions?</label>
                 <textarea>Enter your comments here...</textarea>
             </fieldset>
-            <input type="submit" id="submit" name="submit" ></input>
+            <input type="submit" id="submit" name="submit">
         </main>
     </form>
     </body>
