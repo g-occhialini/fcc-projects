@@ -52,14 +52,7 @@ input[type="submit"] {
     border-color: aliceblue;
     min-width: 300px;
 }
-/*#checkbox{
-    display: flex;
-    vertical-align: middle;
-}*/
-
 #checkbox{
     display: flex;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
+    vertical-align: middle;
 }
